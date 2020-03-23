@@ -1,0 +1,1 @@
+select COUNT(id_Prof) from `schedule_tbl`tbl where id_Prof='1' and sy='2019-2020' and semestral_sche='1'

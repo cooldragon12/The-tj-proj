@@ -1,0 +1,2 @@
+
+select count(id_Prof) from schedule_tbl where id_Prof= ""
