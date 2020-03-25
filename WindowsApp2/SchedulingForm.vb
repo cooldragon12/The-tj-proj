@@ -443,7 +443,7 @@ Public Class SchedulingForm
             End If
             If read.GetDateTime("time_start") = "2020-02-10 07:00:00" Then
                 monday_730.BackColor = Color.Orange
-                label = lbl_Monday_730.Text
+                lbl_Monday_730.Text = label
                 If read.GetDateTime("time_end") = "2020-02-10 08:00:00" Then
                     lbl_Monday_800.Text = label2
                     monday_800.BackColor = Color.Orange
@@ -460,17 +460,17 @@ Public Class SchedulingForm
 
             If read.GetDateTime("time_start") = "2020-02-10 07:30:00" Then
                 monday_800.BackColor = Color.Orange
-                label = lbl_Monday_800.Text
+                lbl_Monday_800.Text = label
                 If read.GetDateTime("time_end") = "2020-02-10 08:30:00" Then
 
-                    label2 = lbl_Monday_830.Text
+                    lbl_Monday_830.Text = label2
                     monday_830.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-10 09:30:00" Then
                     monday_830.BackColor = Color.Orange
                     monday_900.BackColor = Color.Orange
                     monday_930.BackColor = Color.Orange
-                    label2 = lbl_Monday_830.Text
-                    label3 = lbl_Monday_900.Text
+                    lbl_Monday_830.Text = label2
+                    lbl_Monday_900.Text = label3
                     lbl_Monday_930.Text = ""
                 End If
             End If
@@ -490,12 +490,15 @@ Public Class SchedulingForm
             End If
             If read.GetDateTime("time_start") = "2020-02-10 08:30:00" Then
                 monday_900.BackColor = Color.Orange
+                lbl_Monday_900.Text = label
                 If read.GetDateTime("time_end") = "2020-02-10 09:30:00" Then
-
+                    lbl_Monday_930.Text = label2
                     monday_930.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-10 10:30:00" Then
                     monday_930.BackColor = Color.Orange
+                    lbl_Monday_930.Text = label2
                     monday_1000.BackColor = Color.Orange
+                    lbl_Monday_1000.Text = label3
                     monday_1030.BackColor = Color.Orange
                 End If
             End If
@@ -517,7 +520,7 @@ Public Class SchedulingForm
                 monday_1000.BackColor = Color.Orange
                 lbl_Monday_1000.Text = label
                 If read.GetDateTime("time_end") = "2020-02-10 10:30:00" Then
-
+                    lbl_Monday_1030.Text = label2
                     monday_1030.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-10 11:30:00" Then
 
@@ -532,7 +535,7 @@ Public Class SchedulingForm
                 monday_1030.BackColor = Color.Orange
                 lbl_Monday_1030.Text = label
                 If read.GetDateTime("time_end") = "2020-02-10 11:00:00" Then
-
+                    lbl_Monday_1100.Text = label2
                     monday_1100.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-10 12:00:00" Then
 
@@ -547,7 +550,7 @@ Public Class SchedulingForm
                 monday_1100.BackColor = Color.Orange
                 lbl_Monday_1100.Text = label
                 If read.GetDateTime("time_end") = "2020-02-10 11:30:00" Then
-
+                    lbl_Monday_1130.Text = label2
                     monday_1130.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-10 12:30:00" Then
                     lbl_Monday_1130.Text = ""
@@ -562,7 +565,7 @@ Public Class SchedulingForm
                 monday_1130.BackColor = Color.Orange
                 lbl_Monday_1130.Text = label
                 If read.GetDateTime("time_end") = "2020-02-10 12:00:00" Then
-
+                    lbl_Monday_1200.Text = label2
                     monday_1200.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-10 13:00:00" Then
 
@@ -760,7 +763,7 @@ Public Class SchedulingForm
             End If
             If read.GetDateTime("time_start") = "2020-02-11 07:00:00" Then
                 tuesday_730.BackColor = Color.Orange
-                label = lbl_Tuesday_730.Text
+                lbl_Tuesday_730.Text = label
                 If read.GetDateTime("time_end") = "2020-02-11 08:00:00" Then
                     lbl_Tuesday_800.Text = label2
                     tuesday_800.BackColor = Color.Orange
@@ -777,17 +780,17 @@ Public Class SchedulingForm
 
             If read.GetDateTime("time_start") = "2020-02-11 07:30:00" Then
                 tuesday_800.BackColor = Color.Orange
-                label = lbl_Tuesday_800.Text
+                lbl_Tuesday_800.Text = label
                 If read.GetDateTime("time_end") = "2020-02-11 08:30:00" Then
 
-                    label2 = lbl_Tuesday_830.Text
+                    lbl_Tuesday_830.Text = label2
                     tuesday_830.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-11 09:30:00" Then
                     tuesday_830.BackColor = Color.Orange
                     tuesday_900.BackColor = Color.Orange
                     tuesday_930.BackColor = Color.Orange
-                    label2 = lbl_Tuesday_830.Text
-                    label3 = lbl_Tuesday_900.Text
+                    lbl_Tuesday_830.Text = label2
+                    lbl_Tuesday_900.Text = label3
                     lbl_Tuesday_930.Text = ""
                 End If
             End If
@@ -807,12 +810,15 @@ Public Class SchedulingForm
             End If
             If read.GetDateTime("time_start") = "2020-02-11 08:30:00" Then
                 tuesday_900.BackColor = Color.Orange
+                lbl_Tuesday_900.Text = label
                 If read.GetDateTime("time_end") = "2020-02-11 09:30:00" Then
-
+                    lbl_Tuesday_930.Text = label2
                     tuesday_930.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-11 10:30:00" Then
                     tuesday_930.BackColor = Color.Orange
+                    lbl_Tuesday_930.Text = label2
                     tuesday_1000.BackColor = Color.Orange
+                    lbl_Tuesday_1000.Text = label3
                     tueasday_1030.BackColor = Color.Orange
                 End If
             End If
@@ -834,7 +840,7 @@ Public Class SchedulingForm
                 tuesday_1000.BackColor = Color.Orange
                 lbl_Tuesday_1000.Text = label
                 If read.GetDateTime("time_end") = "2020-02-11 10:30:00" Then
-
+                    lbl_Tuesday_1030.Text = label2
                     tueasday_1030.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-11 11:30:00" Then
 
@@ -849,7 +855,7 @@ Public Class SchedulingForm
                 tueasday_1030.BackColor = Color.Orange
                 lbl_Tuesday_1030.Text = label
                 If read.GetDateTime("time_end") = "2020-02-11 11:00:00" Then
-
+                    lbl_Tuesday_1100.Text = label2
                     tuesday_1100.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-11 12:00:00" Then
 
@@ -879,7 +885,7 @@ Public Class SchedulingForm
                 tuesday_1130.BackColor = Color.Orange
                 lbl_Tuesday_1130.Text = label
                 If read.GetDateTime("time_end") = "2020-02-11 12:00:00" Then
-
+                    lbl_Tuesday_1200.Text = label2
                     tuesday_1200.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-11 13:00:00" Then
 
@@ -1093,17 +1099,17 @@ Public Class SchedulingForm
 
             If read.GetDateTime("time_start") = "2020-02-12 07:30:00" Then
                 wednes_800.BackColor = Color.Orange
-                label = lbl_Wednesday_800.Text
+                lbl_Wednesday_800.Text = label
                 If read.GetDateTime("time_end") = "2020-02-12 08:30:00" Then
 
-                    label2 = lbl_Wednesday_830.Text
+                    lbl_Wednesday_830.Text = label2
                     wednes_830.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-12 09:30:00" Then
                     wednes_830.BackColor = Color.Orange
                     wednes_900.BackColor = Color.Orange
                     wednes_930.BackColor = Color.Orange
-                    label2 = lbl_Wednesday_830.Text
-                    label3 = lbl_Wednesday_900.Text
+                    lbl_Wednesday_830.Text = label2
+                    lbl_Wednesday_900.Text = label3
                     lbl_Wednesday_930.Text = ""
                 End If
             End If
@@ -1123,11 +1129,14 @@ Public Class SchedulingForm
             End If
             If read.GetDateTime("time_start") = "2020-02-12 08:30:00" Then
                 wednes_900.BackColor = Color.Orange
+                lbl_Wednesday_900.Text = label
                 If read.GetDateTime("time_end") = "2020-02-12 09:30:00" Then
-
+                    lbl_Wednesday_930.Text = label2
                     wednes_930.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-12 10:30:00" Then
                     wednes_930.BackColor = Color.Orange
+                    lbl_Wednesday_930.Text = label2
+                    lbl_Wednesday_1000.Text = label3
                     wednes_1000.BackColor = Color.Orange
                     wednes_1030.BackColor = Color.Orange
                 End If
@@ -1150,7 +1159,7 @@ Public Class SchedulingForm
                 wednes_1000.BackColor = Color.Orange
                 lbl_Wednesday_1000.Text = label
                 If read.GetDateTime("time_end") = "2020-02-12 10:30:00" Then
-
+                    lbl_Wednesday_1030.Text = label2
                     wednes_1030.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-12 11:30:00" Then
 
@@ -1165,7 +1174,7 @@ Public Class SchedulingForm
                 wednes_1030.BackColor = Color.Orange
                 lbl_Wednesday_1030.Text = label
                 If read.GetDateTime("time_end") = "2020-02-12 11:00:00" Then
-
+                    lbl_Wednesday_1100.Text = label2
                     wednes_1100.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-12 12:00:00" Then
 
@@ -1180,7 +1189,7 @@ Public Class SchedulingForm
                 wednes_1100.BackColor = Color.Orange
                 lbl_Wednesday_1100.Text = label
                 If read.GetDateTime("time_end") = "2020-02-12 11:30:00" Then
-
+                    lbl_Wednesday_1130.Text = label2
                     wednes_1130.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-12 12:30:00" Then
                     lbl_Wednesday_1130.Text = ""
@@ -1195,7 +1204,7 @@ Public Class SchedulingForm
                 wednes_1130.BackColor = Color.Orange
                 lbl_Wednesday_1130.Text = label
                 If read.GetDateTime("time_end") = "2020-02-12 12:00:00" Then
-
+                       lbl_Wednesday_1200.Text = label2
                     wednes_1200.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-12 13:00:00" Then
 
@@ -1408,17 +1417,17 @@ Public Class SchedulingForm
 
             If read.GetDateTime("time_start") = "2020-02-13 07:30:00" Then
                 thursday_800.BackColor = Color.Orange
-                label = lbl_Thursday_800.Text
+                lbl_Thursday_800.Text = label
                 If read.GetDateTime("time_end") = "2020-02-13 08:30:00" Then
 
-                    label2 = lbl_Thursday_830.Text
+                    lbl_Thursday_830.Text = label2
                     thursday_830.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-13 09:30:00" Then
                     thursday_830.BackColor = Color.Orange
                     thursday_900.BackColor = Color.Orange
                     thursday_930.BackColor = Color.Orange
-                    label2 = lbl_Thursday_830.Text
-                    label3 = lbl_Thursday_900.Text
+                    lbl_Thursday_830.Text = label2
+                    lbl_Thursday_900.Text = label3
                     lbl_Thursday_930.Text = ""
                 End If
             End If
@@ -1438,12 +1447,15 @@ Public Class SchedulingForm
             End If
             If read.GetDateTime("time_start") = "2020-02-13 08:30:00" Then
                 thursday_900.BackColor = Color.Orange
+                lbl_Thursday_900.Text = label
                 If read.GetDateTime("time_end") = "2020-02-13 09:30:00" Then
-
+                    lbl_Thursday_930.Text = label2
                     thursday_930.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-13 10:30:00" Then
                     thursday_930.BackColor = Color.Orange
+                    lbl_Thursday_930.Text = label2
                     thursday_1000.BackColor = Color.Orange
+                    lbl_Thursday_1000.Text = label2
                     thursday_1030.BackColor = Color.Orange
                 End If
             End If
@@ -1724,17 +1736,17 @@ Public Class SchedulingForm
 
             If read.GetDateTime("time_start") = "2020-02-14 07:30:00" Then
                 friday_800.BackColor = Color.Orange
-                label = lbl_Friday_800.Text
+                lbl_Friday_800.Text = label
                 If read.GetDateTime("time_end") = "2020-02-14 08:30:00" Then
 
-                    label2 = lbl_Friday_830.Text
+                    lbl_Friday_830.Text = label2
                     friday_830.BackColor = Color.Orange
                 ElseIf read.GetDateTime("time_end") = "2020-02-14 09:30:00" Then
                     friday_830.BackColor = Color.Orange
                     friday_900.BackColor = Color.Orange
                     friday_930.BackColor = Color.Orange
-                    label2 = lbl_Friday_830.Text
-                    label3 = lbl_Friday_900.Text
+                    lbl_Friday_830.Text = label2
+                    lbl_Friday_900.Text = label3
                     lbl_Friday_930.Text = ""
                 End If
             End If
